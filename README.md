@@ -1,0 +1,2 @@
+# JOOKO
+Decentralized funding platform
