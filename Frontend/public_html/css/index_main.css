@@ -1,0 +1,73 @@
+#background_1{
+    width: 100vw;
+    height: auto;
+    margin-top: 3vw;
+}
+
+.projects_row{
+    padding-bottom: 2vw;
+    width: 80vw;
+    display: flex;
+    align-content: center;
+}
+
+.projects_div{
+    width: 100%;
+    min-width: 25vw;
+    box-shadow: 1px 10px 30px 0 #1a1a1a!important;
+    border-radius: 1vw;
+    align-content: center;
+    background-color: white;
+}
+
+.projects_column{
+    padding-right: 5vw;
+    padding-left: 5vw;
+    display: inline;
+}
+
+.projects_row .projects_column:first-child{
+    padding-left: 0vw;
+    padding-right: 0vw;
+}
+
+.projects_row .projects_column:last-child{
+    padding-left: 0vw;
+    padding-right: 0vw;
+}
+
+.project_img{
+     object-fit: contain;
+     min-width: 23vw;
+}
+
+
+.project_name{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2vw;
+}
+
+.project_text{
+    text-align: center;
+    padding: 1vw;
+    
+}
+
+.project_button{
+    background: var(--grad_btn);
+    color: white;
+    font-size: 1vw;
+    height: 2vw;
+    border-radius: 1vw; 
+    padding: 1vw;
+}
+
+.project_button:hover{
+    background: var(--grad_btn_2);
+}
+
+:root{
+--grad_btn: linear-gradient(135deg,#e95095,#7049ba);
+--grad_btn_2:linear-gradient(135deg, #7049ba, #e95095);
+}
